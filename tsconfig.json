@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es2020",
+    "allowJs": false,
+    "baseUrl": "./src",
+    "declaration": true,
+    "declarationDir": "./types",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "ignoreDeprecations": "5.0",
+    // "moduleResolution": "Bundler",
+    "paths": {
+      "@/*": ["./*"],
+    },
+    "plugins": [
+      { 
+        "name": "typescript-plugin-css-modules",
+        "options": {
+
+        }
+      }
+    ]
+  }
+}
